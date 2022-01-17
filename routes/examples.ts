@@ -1,4 +1,4 @@
-import { Get, ParcelPage } from "../deps.ts";
+import { Get, Page } from "../deps.ts";
 import { Home } from "../pages/Home.tsx";
 
 /*
@@ -12,4 +12,4 @@ Get("/message", () => {
   });
 });
 
-ParcelPage("/", Home());
+Page("/", Home());
