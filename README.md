@@ -1,2 +1,3 @@
 # Cargo Template Fullstack
-Basic structure to develope a fullstack application with Cargo.
+
+Basic structure to develop a full-stack application with Cargo.
