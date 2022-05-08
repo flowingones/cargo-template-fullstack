@@ -1,8 +1,8 @@
-/** @jsx factory */
+/** @jsx tag */
 
-import { factory } from "./deps.ts";
+import { tag } from "./deps.ts";
 
-export function Root(props: JSX.ComponentProps): JSX.Element {
+export function Root(props: JSX.ElementProps): JSX.Element {
   return (
     <html lang="en">
       <head>

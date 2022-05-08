@@ -1,11 +1,11 @@
-/** @jsx factory */
+/** @jsx tag */
 
-import { factory, Root } from "../deps.ts";
+import { tag } from "../deps.ts";
 
 export function Home() {
   return (
-    <Root>
+    <div>
       <h1>Hello There. Welcome to the Cargo Default Site</h1>
-    </Root>
+    </div>
   );
 }

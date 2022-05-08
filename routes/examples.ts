@@ -1,4 +1,4 @@
-import { Get, Page } from "../deps.ts";
+import { Get, Root, StaticPage } from "../deps.ts";
 import { Home } from "../pages/Home.tsx";
 
 /*
@@ -12,4 +12,8 @@ Get("/message", () => {
   });
 });
 
-Page("/", Home());
+StaticPage({
+  path: "index",
+  title: "Example – Index",
+  component: Home,
+}, Root);
