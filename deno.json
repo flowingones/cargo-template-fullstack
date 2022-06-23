@@ -1,0 +1,16 @@
+{
+  "importMap": "./import_map.json",
+  "tasks": {
+    "dev": "load routes:generate && deno run --allow-all --watch=./pages,./assets,./src app.ts"
+  },
+  "compilerOptions": {
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "deno.ns"
+    ]
+  }
+}

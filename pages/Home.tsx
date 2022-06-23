@@ -1,10 +1,9 @@
-/** @jsx tag */
+import { h } from "nano/mod.ts";
+import { tw } from "twind/mod.ts";
 
-import { tag } from "../deps.ts";
-
-export function Home() {
+export default function home() {
   return (
-    <div>
+    <div class={tw`font-sans`}>
       <h1>Hello There. Welcome to the Cargo Default Site</h1>
     </div>
   );

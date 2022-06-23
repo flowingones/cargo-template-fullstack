@@ -1,5 +1,4 @@
-import { Get, Root, StaticPage } from "../deps.ts";
-import { Home } from "../pages/Home.tsx";
+import { Get } from "cargo/http/mod.ts";
 
 /*
  * Add your api routes to this file.
@@ -11,9 +10,3 @@ Get("/message", () => {
     },
   });
 });
-
-StaticPage({
-  path: "index",
-  title: "Example – Index",
-  component: Home,
-}, Root);

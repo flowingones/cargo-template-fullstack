@@ -1,0 +1,10 @@
+{
+  "imports": {
+    "app/": "./src/",
+    "config/": "./config/",
+    "pages/": "./pages/",
+    "cargo/": "https://deno.land/x/cargo@0.1.41/",
+    "nano/": "https://raw.githubusercontent.com/flowingones/cargo-nano/main/src/",
+    "twind/": "https://raw.githubusercontent.com/flowingones/cargo-twind/main/src/"
+  }
+}
